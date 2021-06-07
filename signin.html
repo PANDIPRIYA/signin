@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+</head>
+<body>
+    <!--navbar starts-->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg">
+            <div class="container">
+              <a class="navbar-brand" href="#">Flurgex</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/index.html" target="_blank">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="/about.html" target="_blank">About</a>
+                  </li>
+                  
+                  <li class="nav-item">
+                    <a class="nav-link active" href="/help.html" target="_blank">Help</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="/contact.html" target="_blank">Contact</a>
+                  </li>
+
+
+              </div>
+            </div>
+          </nav>
+    </header>
+   <!--navbar ends-->
+    
+<!-- Login form creation starts-->
+<section class="container">
+  
+  <section class="row justify-content-center">
+    <section class="col-12 col-sm-6 col-md-6 col-lg-6">
+      <form class="form-container">
+        
+      <div class="form-group">
+        <h4 class="text-center font-weight-bold display-4"> Sign In </h4>
+        
+        <label for="InputEmail1">Email Address</label>
+
+        <input type="email" class="form-control" id="InputEmail1" aria-describeby="emailHelp" placeholder="Enter email">
+      
+        <label for="InputPassword1">Password</label>
+        <input type="password" class="form-control" id="InputPassword1" placeholder="Password">
+      
+      
+        <label for="file">Security Key</label>
+        <input type="file" class="form-control" id="InputFile" placeholder="file">
+      </div>
+      
+      <div class="checkbox">
+        <input type="checkbox" class="form-check-input"  id="examplecheck"  name="remember" checked="checked" >
+        <label for="examplecheck" class="form-check-label">Remember me</label>
+      </div>
+      
+      <button type="submit" class="btn btn-block  btn-warning ">Sign In</button>
+      
+      
+      <div class="text-center">
+        <a href="/signup">Sign Up</a>
+        <span class="p-2">|</span>
+        <a href="/forgot-password">Forgot password?</a>
+      </div>
+  
+      </form>
+    </section>
+  </section>
+</section>
+<!-- Login form creation ends -->
+
+<!--footer-->
+<footer class=" bg-dark text-white pt-5 pb-4 ">
+  <!--Social buttons-->
+  <div class="text-center">
+    <h3>You can find us at</h3>
+    <a href="#" target="_blank" class="fa fa-facebook"></a>
+    <a href="#" target="_blank" class="fa fa-twitter"></a>
+    <a href="#" target="_blank" class="fa fa-google"></a>
+    <a href="#" target="_blank" class="fa fa-linkedin"></a>
+    <a href="#" target="_blank" class="fa fa-youtube"></a>
+    <a href="#" target="_blank" class="fa fa-instagram"></a>
+  </div>
+  <hr class="mt-0">
+  <!--social ends-->
+  
+  
+  <div class="container text-center text-md-left">
+    <div class="row text-center-md-left">
+      <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold text-warning">Flurgex</h5>
+        
+      </div>
+      <div class="col-md-2 " col-xl-2 mx-auto mt-3>
+        <h4>Details</h4>
+        <p><a href="#" target="_blank" class="text-white" >Teams</a></p>
+        <p><a href="#" target="_blank" class="text-white" >About</a></p>
+        <p><a href="#" target="_blank" class="text-white" >Privacy policy</a></p>
+        <p><a href="#" target="_blank" class="text-white" >FAQ</a></p>
+        <p><a href="#" target="_blank" class="text-white" >Contact</a></p>
+
+
+      </div>
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto"></div>
+    </div>
+    
+  </div>
+  <hr class="mb-0">
+  <!--Copyright-->
+  <div class="py-3 text-center">
+     &copy; Copyright 2021
+    <a href="#">All Rights Reserved By <strong class=>Flurgex</strong></a> 
+  </div>
+  <!--/.Copyright-->
+
+
+</footer>
+<!--footer end-->
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+
+
+    
+</body>
+</html>
